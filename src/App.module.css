@@ -1,0 +1,21 @@
+.title {
+  font-size: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+@media (width >= 768px) {
+  .container {
+    align-items: center;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+  }
+}
